@@ -1,7 +1,28 @@
 .container {
   max-width: 120rem;
-  background-color: var(--color-grey-light-2);
+  background-color: var(--color-grey-light-1);
   min-height: 50rem;
   margin: 8rem auto;
   box-shadow: var(--shadow-dark);
+}
+
+.header {
+  background-color: var(--color-grey-light-2);
+  height: 7rem;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  background-color: #fff;
+  flex: 1;
 }
