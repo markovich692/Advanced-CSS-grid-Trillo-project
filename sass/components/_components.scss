@@ -311,3 +311,9 @@
     box-shadow: none;
   }
 }
+
+.description {
+  .paragraph:not(last-child) {
+    margin-bottom: 2rem;
+  }
+}
